@@ -11,8 +11,11 @@
 #define TX_INTERVAL_MS 60000
 #define TX_AMPL 200 // Out of 256
 
-#define CALLSIGN "K3RTL"
-#define DST_CALLSIGN "K3RTL"
+// NOTE: Insert user callsign here
+#define CALLSIGN "-----"
+
+// NOTE: Insert destination callsign here
+#define DST_CALLSIGN "-----"
 
 // For a sensor-node, we expect the location of the node to
 // be fixed and as-such we avoid including a GPS module for
